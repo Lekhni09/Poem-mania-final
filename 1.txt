@@ -1,0 +1,9 @@
+tbl_Contact (id, Name, Mobile, Email, Subject, Message)
+
+tbl_Register(RegId, Name , Mobile, Eamil, Password)
+
+tbl_Product(ProductId, Name, Description, PhotoUrl, Price, OfferPrice, IsOffer,)
+
+tbl_BillMaster(BMId, RegId, BillDate, Total, Tax, Disc, Net, BA_Name,BA_Address, BA_Email, BA_Mobile, DA_Name, DA_Address, DA_Email, DA_Mobile)
+
+tbl_BillDetails(BDid, BMId, ProductId, Qty, Price)
